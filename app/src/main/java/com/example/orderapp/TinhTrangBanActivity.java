@@ -157,7 +157,7 @@ public class TinhTrangBanActivity extends AppCompatActivity {
                         Ban_Tbl.updateChildren(map);
                         Intent intent = new Intent(TinhTrangBanActivity.this, MainActivity.class);
                         intent.putExtra("idTaiKhoanHienTai", idTaiKhoanHienTai);
-                        intent.putExtra("idBanHienTai", banDaChon);
+                        intent.putExtra("idBanHienTai", idBan);
                         startActivity(intent);
                         break;
                     }

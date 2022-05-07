@@ -20,9 +20,9 @@ public class QuanLyCaiBanActivity extends AppCompatActivity {
 
 
         // Lấy dữ liệu được truyền từ Activity đằng trước
-        //Intent intent = getIntent();
-        //idTaiKhoanHienTai = intent.getStringExtra("idTaiKhoanHienTai");
-        idTaiKhoanHienTai = "-N0PeT6_4ss920fg6Gt5";
+        Intent intent = getIntent();
+        idTaiKhoanHienTai = intent.getStringExtra("idTaiKhoanHienTai");
+
 
         AnhXa();
         GanSuKien();
@@ -95,7 +95,7 @@ public class QuanLyCaiBanActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                //TODO: quay về trang chủ
+
             }
         });
     }

@@ -13,7 +13,7 @@
         <ImageButton
             android:id="@+id/imageButton7"
             android:layout_width="wrap_content"
-            android:layout_height="68dp"
+            android:layout_height="100dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:background="@null"
@@ -22,12 +22,11 @@
 
         <ImageView
             android:id="@+id/logoIV"
-            android:layout_width="116dp"
+            android:layout_width="229dp"
             android:layout_height="match_parent"
-            android:layout_marginTop="10dp"
             android:layout_marginLeft="60dp"
-            app:srcCompat="@drawable/logo"
-            />
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/logo" />
 
     </LinearLayout>
 
@@ -88,14 +87,14 @@
                 app:srcCompat="@drawable/lau1"
                 android:background="@null"
                 />
+
             <ImageButton
                 android:id="@+id/lauGIB"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/laug"
                 android:background="@null"
-                />
+                app:srcCompat="@drawable/laug" />
 
         </LinearLayout>
     </ScrollView>

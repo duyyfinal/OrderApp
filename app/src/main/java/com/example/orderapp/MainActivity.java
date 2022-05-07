@@ -38,10 +38,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //idBanHienTai = getIntent().getStringExtra("idBanHienTai");
-        //idTaiKhoanHienTai = getIntent().getStringExtra("idTaiKhoanHienTai");
+        idBanHienTai = getIntent().getStringExtra("idBanHienTai");
+        idTaiKhoanHienTai = getIntent().getStringExtra("idTaiKhoanHienTai");
 
-        idBanHienTai = "-N0fFRpY9rz1LK0MTOtB";
-        idTaiKhoanHienTai = "-N0PeT6_4ss920fg6Gt5";
+
     }
 }

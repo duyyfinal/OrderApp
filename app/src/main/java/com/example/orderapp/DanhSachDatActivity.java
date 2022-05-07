@@ -124,6 +124,7 @@ public class DanhSachDatActivity extends AppCompatActivity {
 
                         if (mon.getIdChiTietHoaDon().compareTo(keycthoadon) == 0) {
                             mon = mondadat;
+                            adapter.notifyDataSetChanged();
                         }
                     }
                 }
@@ -140,6 +141,7 @@ public class DanhSachDatActivity extends AppCompatActivity {
 
                         if (mon.getIdChiTietHoaDon().compareTo(keycthoadon) == 0) {
                             arrSanPhamDat.remove(mon);
+                            adapter.notifyDataSetChanged();
                         }
                     }
                 }
