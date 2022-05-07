@@ -66,6 +66,7 @@ public class DanhSachAdapter extends BaseAdapter {
         btnXoa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 XoaMon(i);
             }
         });
@@ -79,12 +80,8 @@ public class DanhSachAdapter extends BaseAdapter {
             ChiTietHoaDon chiTietHoaDon = arrSanPhamDat.get(j);
             String keyCTHoaDon = chiTietHoaDon.getIdChiTietHoaDon();
             if(keymon == keyCTHoaDon){
-                chiTietHoaDon_Tbl.child(keyCTHoaDon).removeValue();//.addOnCompleteListener(this, new OnCompleteListener<Void>() {
-//                @Override
-//                public void onComplete(@NonNull Task<Void> task) {
-//                    Log.d("TAG", )
-//                }
-//            });
+                chiTietHoaDon_Tbl.child(keyCTHoaDon).removeValue();
+
                 break;
             }
         }
