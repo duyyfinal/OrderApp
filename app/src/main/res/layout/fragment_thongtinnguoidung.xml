@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context=".fragments.ThongTinNguoiDungFragment">
+
+
+    <TextView
+        android:id="@+id/hotenTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa_regular"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/hoten_label"
+        android:textSize="14sp"
+        android:textColor="@color/button_backgroundcolor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sodienthoaiTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/comfortaa_regular"
+        android:text="@string/sodienthoai_label"
+        android:textSize="14sp"
+        android:textColor="@color/button_backgroundcolor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hoTenEditText" />
+
+    <EditText
+        android:id="@+id/soDienThoaiEditText"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:fontFamily="@font/comfortaa_regular"
+        android:inputType="textPersonName"
+        android:textColor="@color/text_inTextField"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sodienthoaiTextView"
+        android:background="@drawable/textfield_style"/>
+
+    <TextView
+        android:id="@+id/diachiTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/comfortaa_regular"
+        android:textColor="@color/button_backgroundcolor"
+        android:text="@string/diachi_label"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/soDienThoaiEditText"
+        />
+
+    <EditText
+        android:id="@+id/hoTenEditText"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/comfortaa_regular"
+        android:ems="10"
+        android:textColor="@color/text_inTextField"
+        android:textSize="14sp"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hotenTextView"
+        android:background="@drawable/textfield_style"
+        />
+
+    <EditText
+        android:id="@+id/diaChiEditText"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/text_inTextField"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/comfortaa_regular"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diachiTextView"
+        android:background="@drawable/textfield_style"/>
+
+    <Button
+        android:id="@+id/capNhatThongTinNguoiDungButton"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/cappnhatButton"
+        android:fontFamily="@font/comfortaa_regular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diaChiEditText"
+        android:backgroundTint="@color/button_backgroundcolor"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

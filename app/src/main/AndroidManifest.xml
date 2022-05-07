@@ -1,19 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.orderapp">
-
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.OrderApp">
+        android:largeHeap="true"
+        android:theme="@style/Theme.Mobile">
         <activity
-            android:name=".ChonMonActivity"
+            android:name=".ChonMonAnActivity"
             android:exported="false" />
         <activity
+            android:name=".DanhSachDatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChonDoUongActivity"
+            android:exported="false" >
+
+        </activity>
+        <activity
             android:name=".MainActivity"
+            android:exported="false">
+
+        </activity>
+        <activity android:name=".ThongTinDatBanActivity" android:exported="false"/>
+        <activity android:name=".TinhTrangBanActivity" android:exported="false"/>
+        <activity android:name=".LauActivity" android:exported="false"/>
+        <activity android:name=".QuanLyCaiBanActivity" android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".CapNhatTaiKhoanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TrangChuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".XacThucTaiKhoanActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

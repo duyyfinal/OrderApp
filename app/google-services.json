@@ -1,0 +1,243 @@
+{
+  "project_info": {
+    "project_number": "681310268426",
+    "firebase_url": "https://staff-management-ce49e-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "staff-management-ce49e",
+    "storage_bucket": "staff-management-ce49e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681310268426:android:db4b328b3cbcd98d6303f3",
+        "android_client_info": {
+          "package_name": "baodang.st.ueh.edu.vn.firebaseguidline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "681310268426-dflr8tibh5lm5d048t31s8uslb74hmlv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFdyrwN2qBjcwg19GxentTcpRqEz48IbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "681310268426-dflr8tibh5lm5d048t31s8uslb74hmlv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681310268426:android:d927f86e34e571686303f3",
+        "android_client_info": {
+          "package_name": "baodang.st.ueh.edu.vn.guidefirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "681310268426-dflr8tibh5lm5d048t31s8uslb74hmlv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFdyrwN2qBjcwg19GxentTcpRqEz48IbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "681310268426-dflr8tibh5lm5d048t31s8uslb74hmlv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681310268426:android:798ba5c8a4818aae6303f3",
+        "android_client_info": {
+          "package_name": "baodang.st.ueh.edu.vn.staffmanagementdatabasemodel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "681310268426-dflr8tibh5lm5d048t31s8uslb74hmlv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFdyrwN2qBjcwg19GxentTcpRqEz48IbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "681310268426-dflr8tibh5lm5d048t31s8uslb74hmlv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681310268426:android:dabd7ec1aada600c6303f3",
+        "android_client_info": {
+          "package_name": "baodang.st.ueh.edu.vn.test1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "681310268426-dflr8tibh5lm5d048t31s8uslb74hmlv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFdyrwN2qBjcwg19GxentTcpRqEz48IbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "681310268426-dflr8tibh5lm5d048t31s8uslb74hmlv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681310268426:android:f0f40b12511041726303f3",
+        "android_client_info": {
+          "package_name": "baodang.st.ueh.edu.vn.test2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "681310268426-dflr8tibh5lm5d048t31s8uslb74hmlv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFdyrwN2qBjcwg19GxentTcpRqEz48IbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "681310268426-dflr8tibh5lm5d048t31s8uslb74hmlv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681310268426:android:50ec12bf775b1da26303f3",
+        "android_client_info": {
+          "package_name": "baodang.st.ueh.edu.vn.testlogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "681310268426-dflr8tibh5lm5d048t31s8uslb74hmlv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFdyrwN2qBjcwg19GxentTcpRqEz48IbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "681310268426-dflr8tibh5lm5d048t31s8uslb74hmlv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681310268426:android:8f9b65ff5965e4b36303f3",
+        "android_client_info": {
+          "package_name": "com.example.orderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "681310268426-dflr8tibh5lm5d048t31s8uslb74hmlv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFdyrwN2qBjcwg19GxentTcpRqEz48IbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "681310268426-dflr8tibh5lm5d048t31s8uslb74hmlv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681310268426:android:6a0c5edb6ebc6e6a6303f3",
+        "android_client_info": {
+          "package_name": "dangbao.st.ueh.edu.vn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "681310268426-dflr8tibh5lm5d048t31s8uslb74hmlv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFdyrwN2qBjcwg19GxentTcpRqEz48IbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "681310268426-dflr8tibh5lm5d048t31s8uslb74hmlv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

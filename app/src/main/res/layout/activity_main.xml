@@ -7,15 +7,16 @@
     android:background="@drawable/background"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
     <Button
         android:id="@+id/buttonMonAn"
         android:layout_width="380dp"
         android:layout_height="180dp"
         android:backgroundTint="#876445"
-        android:textSize="32dp"
-        android:text="món"
+        android:textSize="32sp"
+        android:text="món ăn"
+        android:drawableLeft="@drawable/ic_food"
         android:textColor="#FFECB3"
+        android:fontFamily="@font/comfortaa_regular"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.516"
@@ -25,19 +26,21 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
-        android:id="@+id/btnDoUong"
+        android:id="@+id/buttonDoUong"
         android:layout_width="380dp"
         android:layout_height="180dp"
         android:backgroundTint="#876445"
+        android:drawableLeft="@drawable/ic_food"
         android:text="Đồ Uống"
-        android:textSize="32dp"
         android:textColor="#FFECB3"
+        android:textSize="32sp"
+        android:fontFamily="@font/comfortaa_regular"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.581"
+        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonMonAn"
-        app:layout_constraintVertical_bias="0.152" />
+        app:layout_constraintVertical_bias="0.151" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

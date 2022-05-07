@@ -3,11 +3,39 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/drawable-v24/backarrow.xml" value="0.1" />
+        <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/drawable-v24/custom_border.xml" value="0.1" />
+        <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/drawable-v24/diemdanh.xml" value="0.2095" />
+        <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/drawable-v24/table.xml" value="0.2095" />
+        <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/drawable-v24/textfield_style.xml" value="0.1" />
+        <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/drawable-xxxhdpi/custom_button.xml" value="0.2095" />
         <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/drawable/duongvien_goctron.xml" value="0.26614583333333336" />
-        <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/layout/activity_chon_mon.xml" value="0.25" />
+        <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/drawable/ic_baseline_reply_24.xml" value="0.1" />
+        <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/drawable/ic_drink.xml" value="0.164" />
+        <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/drawable/ic_food.xml" value="0.231" />
+        <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/drawable/quaylai1.xml" value="0.164" />
+        <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/layout/activity_capnhattaikhoan.xml" value="0.11041666666666666" />
+        <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/layout/activity_chon_mon.xml" value="0.1" />
+        <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/layout/activity_chondouong.xml" value="0.264" />
+        <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/layout/activity_chonmonan.xml" value="0.264" />
+        <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/layout/activity_danhsachdat.xml" value="0.2" />
+        <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/layout/activity_lau.xml" value="0.25" />
         <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/layout/activity_quanlycaiban.xml" value="0.1546875" />
+        <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/layout/activity_thongtindatban.xml" value="0.178125" />
+        <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/layout/activity_tinhtrangban.xml" value="0.1546875" />
+        <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/layout/activity_trangchu.xml" value="0.264" />
+        <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/layout/activity_xacthuctaikhoan.xml" value="0.1" />
         <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/layout/chon_mon.xml" value="0.25" />
+        <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/layout/fragment_matkhautaikhoan.xml" value="0.11041666666666666" />
+        <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/layout/fragment_thongtinnguoidung.xml" value="0.11041666666666666" />
         <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/layout/mon_an.xml" value="0.25" />
+        <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/layout/sanpham.xml" value="0.264" />
+        <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/layout/sanphamdat.xml" value="0.264" />
+        <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2125" />
+        <entry key="..\:/Users/THANH DUY/AndroidStudioProjects/OrderApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2095" />
       </map>
     </option>
   </component>

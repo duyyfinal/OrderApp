@@ -7,5 +7,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="chututton">#F4DFBA</color>
+    <color name="nau">#876445</color>
+
+    <color name="button_backgroundcolor">#876445</color>
+    <color name="normal_textcolor">#F4DFBA</color>
+
+    <color name="text_inTextField">#1C0A00</color>
+
 </resources>

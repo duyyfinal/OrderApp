@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TrangChuActivity"
+    android:background="@drawable/background"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:background="@drawable/custom_border">
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/anhDaiDienCircularImageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:civ_border_color="@color/button_backgroundcolor"
+            app:civ_border_width="1dp"
+            app:civ_shadow="true"
+            app:civ_shadow_radius="2dp"
+            app:civ_shadow_color="#3f51b5"/>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:backgroundTint="@color/normal_textcolor">
+           <TextView
+               android:id="@+id/tenTextView"
+               android:layout_width="match_parent"
+               android:fontFamily="@font/comfortaa_regular"
+               android:layout_height="30dp"
+               android:textSize="14sp"
+               android:gravity="center_vertical"
+               android:textColor="@color/button_backgroundcolor"/>
+           <TextView
+               android:id="@+id/chucVuTextView"
+               android:layout_width="match_parent"
+               android:fontFamily="@font/comfortaa_regular"
+               android:layout_height="30dp"
+               android:textSize="14sp"
+               android:gravity="center_vertical"
+               android:textColor="@color/button_backgroundcolor"/>
+           <TextView
+               android:id="@+id/diachiTextView"
+               android:layout_width="match_parent"
+               android:layout_height="30dp"
+               android:fontFamily="@font/comfortaa_regular"
+               android:textSize="14sp"
+               android:gravity="center_vertical"
+               android:textColor="@color/button_backgroundcolor"/>
+           <TextView
+               android:id="@+id/soDienThoaiTextView"
+               android:layout_width="match_parent"
+               android:layout_height="30dp"
+               android:textSize="14sp"
+               android:fontFamily="@font/comfortaa_regular"
+               android:gravity="center_vertical"
+               android:textColor="@color/button_backgroundcolor"/>
+       </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:fontFamily="@font/comfortaa_regular"
+        android:textColor="@color/button_backgroundcolor"
+        android:text="@string/trangchu_tittle" />
+
+    <Button
+        android:id="@+id/diemDanhButton"
+        android:layout_width="380dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/diemdanh"
+        android:fontFamily="@font/comfortaa_regular"
+        android:backgroundTint="@color/button_backgroundcolor"
+        android:text="@string/điemanh_button" />
+
+    <Button
+        android:id="@+id/quanLyBanButton"
+        android:layout_width="380dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/button_backgroundcolor"
+        android:drawableLeft="@drawable/table"
+        android:fontFamily="@font/comfortaa_regular"
+        android:text="@string/quanlycaiban_button" />
+
+</LinearLayout>

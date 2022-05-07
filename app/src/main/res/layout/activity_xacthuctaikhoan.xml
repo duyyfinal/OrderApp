@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".XacThucTaiKhoanActivity">
+
+
+    <ImageButton
+        android:backgroundTint="@color/button_backgroundcolor"
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/logo"
+       />
+
+    <EditText
+        android:id="@+id/tenDangNhapEditText"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/textfield_style"
+        android:ems="10"
+        android:textSize="14sp"
+        android:inputType="textPersonName"
+        android:fontFamily="@font/comfortaa_regular"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/text_inTextField"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/name_lable_account"
+        android:fontFamily="@font/comfortaa_regular"
+        android:textSize="14sp"
+        android:textColor="@color/button_backgroundcolor"
+        app:layout_constraintBottom_toTopOf="@+id/tenDangNhapEditText"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="14sp"
+        android:textColor="@color/button_backgroundcolor"
+        android:text="@string/password_lable_account"
+        android:fontFamily="@font/comfortaa_regular"
+        app:layout_constraintBottom_toTopOf="@+id/matKhauEditText"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/matKhauEditText"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/textfield_style"
+        android:textColor="@color/text_inTextField"
+        android:textSize="14sp"
+        android:fontFamily="@font/comfortaa_regular"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/password_account"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tenDangNhapEditText" />
+
+    <Button
+        android:id="@+id/dangNhapButton"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/dangnhap_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="@color/button_backgroundcolor"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/white"
+        android:fontFamily="@font/comfortaa_regular"
+        app:layout_constraintTop_toBottomOf="@+id/matKhauEditText" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="8dp"
+        android:textSize="14sp"
+        android:text="@string/quenmatkhau_textview"
+        android:fontFamily="@font/comfortaa_regular"
+        android:textColor="@color/button_backgroundcolor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dangNhapButton" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:fontFamily="@font/comfortaa_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="324dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/chinhsach_textview"
+        android:textColor="@color/button_backgroundcolor"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/comfortaa_regular"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/app_name"
+        android:textColor="@color/button_backgroundcolor"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
